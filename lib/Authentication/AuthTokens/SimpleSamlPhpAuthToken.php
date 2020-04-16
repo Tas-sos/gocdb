@@ -152,7 +152,7 @@ class SimpleSamlPhpAuthToken implements IAuthentication {
                 }
             }
             // EUDAT IdP
-            else if($idp == 'https://b2access.eudat.eu:8443/saml-idp/metadata'){
+            else if($idp == 'https://b2access.eudat.eu:8443/saml-idp/metadata' || $idp == 'https://unity.eudat-aai.fz-juelich.de:8443/saml-idp/metadata'){
                 // For EUDAT federated id:
                 //$dnAttribute = $attributes['urn:oid:2.5.4.49'][0];
                 //$dnAttribute = $attributes['unity:identity:persistent'][0];
